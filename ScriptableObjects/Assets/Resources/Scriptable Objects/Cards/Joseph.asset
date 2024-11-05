@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a3f82c9aeb2d14785c6ce35c6bd98a, type: 3}
   m_Name: Joseph
   m_EditorClassIdentifier: 
+  startHealth: 100
   CardName: Joseph Joestarrr
   CardImage: {fileID: 21300000, guid: 6d2944bd7030ffa4fb54efd99929574e, type: 3}
   CardQuote: Your next line is...
   attack: 5
-  health: -10
+  health: 90
   NextCard: {fileID: 11400000, guid: 140f63dda9c5cfe4ab2b97877fe82707, type: 2}

@@ -16,10 +16,20 @@ public class CardManager : MonoBehaviour
     public TextMeshProUGUI CardQuote;
 
     public TextMeshProUGUI Health;
+
+    public List<CardObj> Cards = new List<CardObj>();
+
+    private UnityEngine.Object[] loadcards;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        loadcards = Resources.LoadAll<CardObj>("ScriptableObjects/Cards");
+        foreach (CardObj c in loadcards)
+        {
+            c.health = c.startHealth;
+            Cards.Add(c);
+        }
     }
 
     // Update is called once per frame

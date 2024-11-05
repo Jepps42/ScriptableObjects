@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a3f82c9aeb2d14785c6ce35c6bd98a, type: 3}
   m_Name: Jojo
   m_EditorClassIdentifier: 
+  startHealth: 100
   CardName: Jonathan Joestar
   CardImage: {fileID: 21300000, guid: 14ca7f90e9e1d824e9e271b52a268709, type: 3}
   CardQuote: DIOOOOO!
   attack: 5
-  health: -10
+  health: 100
   NextCard: {fileID: 11400000, guid: 5c4959d40e56567498d2f1b76fa17dc3, type: 2}

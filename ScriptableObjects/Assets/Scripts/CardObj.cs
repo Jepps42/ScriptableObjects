@@ -10,6 +10,8 @@ using UnityEngine;
 public class CardObj : ScriptableObject
 {
     //Declare the variables used in our scriptable object
+    public int startHealth;
+
     public string CardName;
 
     public Sprite CardImage;
