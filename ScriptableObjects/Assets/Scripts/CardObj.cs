@@ -14,9 +14,11 @@ public class CardObj : ScriptableObject
 
     public Sprite CardImage;
 
-    public string CardDescription;
+    public string CardQuote;
 
     public int attack;
 
     public int health;
+
+    public CardObj NextCard;
 }

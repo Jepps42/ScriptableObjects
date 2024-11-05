@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardName: Jonathan Joestar
   CardImage: {fileID: 21300000, guid: 14ca7f90e9e1d824e9e271b52a268709, type: 3}
-  CardDescription: The first and best Joestar
+  CardQuote: DIOOOOO!
   attack: 5
-  health: 100
+  health: -10
+  NextCard: {fileID: 11400000, guid: 5c4959d40e56567498d2f1b76fa17dc3, type: 2}
